@@ -36,7 +36,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@commitlint/cli", "npm:16.1.0"],
-            ["@commitlint/config-conventional", "npm:16.0.0"],
             ["@fluentui/react", "virtual:d918ad20c4ee83816d0d40722a9407798ef33f7cdd98fe61c224f388f388ef5fd9d22add305fd61b9ec6f264871ee366a4d9d7084fa7977d0c2fe755cda38f4b#npm:8.51.1"],
             ["@types/chai", "npm:4.3.0"],
             ["@types/eslint", "npm:8.4.1"],
@@ -492,16 +491,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["resolve-from", "npm:5.0.0"],
             ["resolve-global", "npm:1.0.0"],
             ["yargs", "npm:17.3.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["@commitlint/config-conventional", [
-        ["npm:16.0.0", {
-          "packageLocation": "./.yarn/cache/@commitlint-config-conventional-npm-16.0.0-57d5419e2f-a0c923c506.zip/node_modules/@commitlint/config-conventional/",
-          "packageDependencies": [
-            ["@commitlint/config-conventional", "npm:16.0.0"],
-            ["conventional-changelog-conventionalcommits", "npm:4.6.3"]
           ],
           "linkType": "HARD",
         }]
@@ -2916,18 +2905,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["conventional-changelog-conventionalcommits", [
-        ["npm:4.6.3", {
-          "packageLocation": "./.yarn/cache/conventional-changelog-conventionalcommits-npm-4.6.3-8a4923dc62-7b8e8a21eb.zip/node_modules/conventional-changelog-conventionalcommits/",
-          "packageDependencies": [
-            ["conventional-changelog-conventionalcommits", "npm:4.6.3"],
-            ["compare-func", "npm:2.0.0"],
-            ["lodash", "npm:4.17.21"],
-            ["q", "npm:1.5.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["conventional-commits-parser", [
         ["npm:3.2.4", {
           "packageLocation": "./.yarn/cache/conventional-commits-parser-npm-3.2.4-d1ebb48cf6-1627ff203b.zip/node_modules/conventional-commits-parser/",
@@ -4311,7 +4288,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["frg2089-poker-blog", "workspace:."],
             ["@commitlint/cli", "npm:16.1.0"],
-            ["@commitlint/config-conventional", "npm:16.0.0"],
             ["@fluentui/react", "virtual:d918ad20c4ee83816d0d40722a9407798ef33f7cdd98fe61c224f388f388ef5fd9d22add305fd61b9ec6f264871ee366a4d9d7084fa7977d0c2fe755cda38f4b#npm:8.51.1"],
             ["@types/chai", "npm:4.3.0"],
             ["@types/eslint", "npm:8.4.1"],
