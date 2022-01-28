@@ -3,5 +3,6 @@
 
 # Github
 /.pnp.* linguist-generated=true
+/.husky/* linguist-generated=true
 /.yarn/* linguist-generated=true
 /*.config.js linguist-generated=true
