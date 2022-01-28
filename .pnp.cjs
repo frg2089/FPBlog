@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-node", "virtual:d918ad20c4ee83816d0d40722a9407798ef33f7cdd98fe61c224f388f388ef5fd9d22add305fd61b9ec6f264871ee366a4d9d7084fa7977d0c2fe755cda38f4b#npm:11.1.0"],
             ["eslint-plugin-promise", "virtual:d918ad20c4ee83816d0d40722a9407798ef33f7cdd98fe61c224f388f388ef5fd9d22add305fd61b9ec6f264871ee366a4d9d7084fa7977d0c2fe755cda38f4b#npm:5.2.0"],
             ["eslint-plugin-react", "virtual:d918ad20c4ee83816d0d40722a9407798ef33f7cdd98fe61c224f388f388ef5fd9d22add305fd61b9ec6f264871ee366a4d9d7084fa7977d0c2fe755cda38f4b#npm:7.28.0"],
+            ["husky", "npm:7.0.4"],
             ["typescript", "patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=493e53"]
           ],
           "linkType": "SOFT",
@@ -1361,6 +1362,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-node", "virtual:d918ad20c4ee83816d0d40722a9407798ef33f7cdd98fe61c224f388f388ef5fd9d22add305fd61b9ec6f264871ee366a4d9d7084fa7977d0c2fe755cda38f4b#npm:11.1.0"],
             ["eslint-plugin-promise", "virtual:d918ad20c4ee83816d0d40722a9407798ef33f7cdd98fe61c224f388f388ef5fd9d22add305fd61b9ec6f264871ee366a4d9d7084fa7977d0c2fe755cda38f4b#npm:5.2.0"],
             ["eslint-plugin-react", "virtual:d918ad20c4ee83816d0d40722a9407798ef33f7cdd98fe61c224f388f388ef5fd9d22add305fd61b9ec6f264871ee366a4d9d7084fa7977d0c2fe755cda38f4b#npm:7.28.0"],
+            ["husky", "npm:7.0.4"],
             ["typescript", "patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=493e53"]
           ],
           "linkType": "SOFT",
@@ -1516,6 +1518,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["has-tostringtag", "npm:1.0.0"],
             ["has-symbols", "npm:1.0.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["husky", [
+        ["npm:7.0.4", {
+          "packageLocation": "./.yarn/cache/husky-npm-7.0.4-917ba035c6-c6ec4af63d.zip/node_modules/husky/",
+          "packageDependencies": [
+            ["husky", "npm:7.0.4"]
           ],
           "linkType": "HARD",
         }]
