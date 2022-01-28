@@ -1,4 +1,16 @@
 {
   "name": "frg2089-poker-blog",
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "@types/eslint": "^8",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.0.0",
+    "eslint-plugin-react": "latest",
+    "typescript": "^4.5.5"
+  }
 }
