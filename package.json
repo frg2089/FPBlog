@@ -2,6 +2,8 @@
   "name": "frg2089-poker-blog",
   "packageManager": "yarn@3.1.1",
   "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
     "@types/eslint": "^8",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
