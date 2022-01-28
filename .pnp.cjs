@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:16.1.0"],
             ["@commitlint/config-conventional", "npm:16.0.0"],
             ["@types/eslint", "npm:8.4.1"],
+            ["@types/node", "npm:17.0.13"],
             ["@typescript-eslint/eslint-plugin", "virtual:d918ad20c4ee83816d0d40722a9407798ef33f7cdd98fe61c224f388f388ef5fd9d22add305fd61b9ec6f264871ee366a4d9d7084fa7977d0c2fe755cda38f4b#npm:5.10.1"],
             ["@typescript-eslint/parser", "virtual:d918ad20c4ee83816d0d40722a9407798ef33f7cdd98fe61c224f388f388ef5fd9d22add305fd61b9ec6f264871ee366a4d9d7084fa7977d0c2fe755cda38f4b#npm:5.10.1"],
             ["@vitejs/plugin-react", "npm:1.1.4"],
@@ -889,6 +890,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-minimist-npm-1.2.2-a445de65da-b8da83c66e.zip/node_modules/@types/minimist/",
           "packageDependencies": [
             ["@types/minimist", "npm:1.2.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/node", [
+        ["npm:17.0.13", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-17.0.13-0b4bf052b4-8b87c850c1.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:17.0.13"]
           ],
           "linkType": "HARD",
         }]
@@ -2787,6 +2797,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:16.1.0"],
             ["@commitlint/config-conventional", "npm:16.0.0"],
             ["@types/eslint", "npm:8.4.1"],
+            ["@types/node", "npm:17.0.13"],
             ["@typescript-eslint/eslint-plugin", "virtual:d918ad20c4ee83816d0d40722a9407798ef33f7cdd98fe61c224f388f388ef5fd9d22add305fd61b9ec6f264871ee366a4d9d7084fa7977d0c2fe755cda38f4b#npm:5.10.1"],
             ["@typescript-eslint/parser", "virtual:d918ad20c4ee83816d0d40722a9407798ef33f7cdd98fe61c224f388f388ef5fd9d22add305fd61b9ec6f264871ee366a4d9d7084fa7977d0c2fe755cda38f4b#npm:5.10.1"],
             ["@vitejs/plugin-react", "npm:1.1.4"],
