@@ -1,0 +1,7 @@
+# Git LFS
+*.zip filter=lfs diff=lfs merge=lfs -binary
+
+# Github
+/.pnp.* linguist-generated=true
+/.yarn/* linguist-generated=true
+/*.config.js linguist-generated=true
