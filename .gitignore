@@ -17,3 +17,6 @@
 
 # coverage
 /coverage/*
+
+# Test Token
+/test/token.ts
