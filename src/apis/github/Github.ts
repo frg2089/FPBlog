@@ -91,7 +91,6 @@ fragment Info on Comment {
 query getDiscussions(
   $owner: String!,
   $name: String!,
-  $discussionNumber: Int!,
   $avatarSize: Int,
   $commentfirst: Int,
   $commentlast: Int,
