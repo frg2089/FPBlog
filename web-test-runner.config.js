@@ -1,5 +1,7 @@
 const vite = require('vite-web-test-runner-plugin')
 
+process.env.mode = 'test'
+
 const ignoredBrowserLogs = [
   '[vite] connecting...',
   '[vite] connected.'

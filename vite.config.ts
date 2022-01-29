@@ -1,10 +1,19 @@
-import { defineConfig } from 'vite'
+import { defineConfig, UserConfigExport } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
-export default defineConfig({
+const config: UserConfigExport = {
   cacheDir: '.vite',
+  optimizeDeps: {
+    include: [
+    ]
+  },
   plugins: [
     react()
   ]
-})
+}
+if (process.env.mode === 'test') {
+  config.optimizeDeps?.include?.push('chai')
+}
+
+export default defineConfig(config)
