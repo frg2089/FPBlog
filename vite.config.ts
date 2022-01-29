@@ -6,6 +6,7 @@ const config: UserConfigExport = {
   cacheDir: '.vite',
   optimizeDeps: {
     include: [
+      'graphql-request'
     ]
   },
   plugins: [
