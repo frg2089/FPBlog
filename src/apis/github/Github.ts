@@ -1,5 +1,7 @@
 import { gql, GraphQLClient } from 'graphql-request'
 import { DiscussionsModel } from '../../models/DiscussionsModel'
+import { ITreeResult } from '../../models/ITreeResult'
+import { IGetTreeArgs } from './models/IGetTreeArgs'
 import GetDiscussionArgs from './models/GetDiscussionArgs'
 import GetDiscussionsArgs from './models/GetDiscussionsArgs'
 
@@ -7,19 +9,17 @@ export namespace Github{
   export const GITHUB_URL_BASE = 'https://api.github.com/'
   export const GITHUB_URL_GRAPHQL = 'https://api.github.com/graphql'
 
-//   export const getTree = () => {
-//     const query = `... on Tree{
-//   entries {
-//     name extension type path object {
-//       ... on Blob {
-//         byteSize
-//       }
-//       #{str}
-//     }
-//   }
-// }
-// `
-//   }
+  /**
+   * RESTful API /repos/{username}/{repo}/git/trees/{tree}?${recursive}
+   * @param args 参数
+   * @returns 对象
+   */
+  export const getTree = async (args: IGetTreeArgs): Promise<ITreeResult> => {
+    const uri = `${GITHUB_URL_BASE}/repos/${args.username}/${args.repo}/git/trees/${args.tree}${args.recursive ? '?recursive=1' : ''}`
+    const response = await fetch(uri)
+    const json = (await response.json()) as ITreeResult
+    return json
+  }
 
   export const getDiscussion = async (
     authorization: string,
