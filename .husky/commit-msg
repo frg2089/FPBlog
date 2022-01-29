@@ -1,4 +1,9 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+if test -f "$(dirname "$0")/_/skip"; then
+  echo "Warn: Skip Commit Check"
+  exit
+fi
+
 yarn commitlint --edit $1
