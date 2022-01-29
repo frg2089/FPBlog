@@ -1,0 +1,79 @@
+@import './common.scss';
+
+.background {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: fixed;
+  z-index: -9999;
+  justify-content: center;
+  background-image: url(https://i.loli.net/2020/06/14/l94xMvBONkXKHTp.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    position: sticky;
+    top: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 8em;
+    text-shadow: 5px 5px 0 #333;
+  }
+}
+
+.body {
+  width: min-content;
+  margin: 0 auto;
+  background-color: rgba($color: #fff, $alpha: .3);
+  position: relative;
+  box-sizing: border-box;
+  transition: max-width 1s linear;
+
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: inherit;
+    backdrop-filter: blur(10px);
+    z-index: -9998;
+  }
+
+  // @media screen and (max-width: $breakpoint-xxxlarge) {
+  //   max-width: $breakpoint-xxlarge;
+  // }
+
+  // @media screen and (max-width: $breakpoint-xxlarge) {
+  //   max-width: $breakpoint-xlarge;
+  // }
+
+  // @media screen and (max-width: $breakpoint-xlarge) {
+  //   max-width: $breakpoint-960;
+  // }
+
+  // @media screen and (max-width: $breakpoint-960) {
+  //   max-width: $breakpoint-large;
+  // }
+
+  // @media screen and (max-width: $breakpoint-large) {
+  //   max-width: $breakpoint-medium;
+  // }
+
+  // @media screen and (max-width: $breakpoint-medium) {
+  //   max-width: 90%;
+  // }
+
+  // @media screen and (max-width: $breakpoint-small) {
+  //   max-width: 100%;
+  // }
+}
