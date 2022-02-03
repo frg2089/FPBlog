@@ -1,0 +1,8 @@
+# Yarn
+/.yarn/*
+# Vite Cache
+/.vite/*
+# Vite Build
+/dist/*
+# coverage
+/coverage/*
