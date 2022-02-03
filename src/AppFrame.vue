@@ -1,12 +1,16 @@
-<script lang="ts">
-</script>
-
 <template>
-  <fluent-card>
-    <h1>Hello Fast Vue!</h1>
-    <h1>Hello Fluent!</h1>
-  </fluent-card>
+<fluent-design-system-provider>
+    <PostCardPanel></PostCardPanel>
+</fluent-design-system-provider>
 </template>
 
-<style>
+<style lang="scss" scoped>
+fluent-design-system-provider{
+  height: 100%;
+}
 </style>
+
+<script lang="ts" scoped setup>
+import PostCardPanel from './components/PostCardPanel.vue'
+
+</script>
