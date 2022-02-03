@@ -18,6 +18,8 @@
     "vue-tsc": "^0.31.1"
   },
   "dependencies": {
+    "@fluentui/web-components": "^2.2.2",
+    "@microsoft/fast-components": "^2.20.2",
     "vue": "^3.2.29"
   },
   "scripts": {

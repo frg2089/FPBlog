@@ -93,6 +93,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fluentui/web-components@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "@fluentui/web-components@npm:2.2.2"
+  dependencies:
+    "@microsoft/fast-colors": ^5.1.0
+    "@microsoft/fast-element": ^1.6.0
+    "@microsoft/fast-foundation": ^2.32.0
+    "@microsoft/fast-web-utilities": ^5.0.0
+    tslib: ^1.13.0
+  checksum: 3e6361c3dd8bd05312d2314547ea01e1256f91d8fa31175665ee070c35a2b67f82b54010d8565018f90805d9804d28670ad0b62943dfef19fa46c430e0258cc8
+  languageName: node
+  linkType: hard
+
 "@gar/promisify@npm:^1.0.1":
   version: 1.1.2
   resolution: "@gar/promisify@npm:1.1.2"
@@ -115,6 +128,55 @@ __metadata:
   version: 1.2.1
   resolution: "@humanwhocodes/object-schema@npm:1.2.1"
   checksum: a824a1ec31591231e4bad5787641f59e9633827d0a2eaae131a288d33c9ef0290bd16fda8da6f7c0fcb014147865d12118df10db57f27f41e20da92369fcb3f1
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-colors@npm:^5.1.0, @microsoft/fast-colors@npm:^5.1.4":
+  version: 5.1.4
+  resolution: "@microsoft/fast-colors@npm:5.1.4"
+  checksum: 9b5923a12c83a60cdc4a1caa8958cbf7c6ccd5a87bd3bc7993983da3bfe7365e37331e14727aeb69f717af3ac2e0a80dde7379acd27d0be434ac117bf3e2d744
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-components@npm:^2.20.2":
+  version: 2.20.2
+  resolution: "@microsoft/fast-components@npm:2.20.2"
+  dependencies:
+    "@microsoft/fast-colors": ^5.1.4
+    "@microsoft/fast-element": ^1.7.0
+    "@microsoft/fast-foundation": ^2.32.3
+    "@microsoft/fast-web-utilities": ^5.1.0
+    tslib: ^1.13.0
+    vscode-html-languageservice: ^4.0.3
+  checksum: ae22b422ad1448548b7abb9929451f446eef3928ae93788748fcb308a4178f6a74a6febe935db3eff36967d213a5f6497cff334964c501ae577de5af8ca3cd26
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-element@npm:^1.6.0, @microsoft/fast-element@npm:^1.7.0":
+  version: 1.7.0
+  resolution: "@microsoft/fast-element@npm:1.7.0"
+  checksum: 6116cf26dbdc6bd175f6ae23743ebde09fc4c6712c53567c5a4a425059e69ae6152e9965368ff2949c5fa902cc7ded81d1ef14b597aa6d94074ee6dd369dfc12
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-foundation@npm:^2.32.0, @microsoft/fast-foundation@npm:^2.32.3":
+  version: 2.32.3
+  resolution: "@microsoft/fast-foundation@npm:2.32.3"
+  dependencies:
+    "@microsoft/fast-element": ^1.7.0
+    "@microsoft/fast-web-utilities": ^5.1.0
+    tabbable: ^5.2.0
+    tslib: ^1.13.0
+  checksum: e4f2482b0f8ed814e0947761cc04dd5fd94da391e19b0cda97dd7fffd7adf52721199823fd79ee36253e4ea0f89dfce79335fe4f54aa9710ca445045207c729a
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-web-utilities@npm:^5.0.0, @microsoft/fast-web-utilities@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@microsoft/fast-web-utilities@npm:5.1.0"
+  dependencies:
+    exenv-es6: ^1.0.0
+  checksum: ea26477d335b48b27f3e8aa76f0a2357655bf00a8ef882e5a8de6adc4987f7df405211ec7631cbe593b2093bffd3c3b892d691bc7f26a31c808a8d101488d172
   languageName: node
   linkType: hard
 
@@ -1671,6 +1733,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"exenv-es6@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "exenv-es6@npm:1.0.0"
+  checksum: 6f36d69a83bdc84a5dedacaaa2d746e0439426e0038ed0b4ee6db1cbc153bf72ed4e1fa2d322f63170914f5e892425604044c0af64057bfcc88a3dde0fa65eab
+  languageName: node
+  linkType: hard
+
 "fast-deep-equal@npm:^3.1.1, fast-deep-equal@npm:^3.1.3":
   version: 3.1.3
   resolution: "fast-deep-equal@npm:3.1.3"
@@ -3181,6 +3250,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "shimakaze-blog@workspace:."
   dependencies:
+    "@fluentui/web-components": ^2.2.2
+    "@microsoft/fast-components": ^2.20.2
     "@typescript-eslint/eslint-plugin": ^5.10.2
     "@typescript-eslint/parser": ^5.10.2
     "@vitejs/plugin-vue": ^2.1.0
@@ -3388,6 +3459,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tabbable@npm:^5.2.0":
+  version: 5.2.1
+  resolution: "tabbable@npm:5.2.1"
+  checksum: d26e9eeb880c4c78b59244bac2c931ad46f6c64a01e5c15ba6da348dc86442222912733846a9e63373342a81fa15d4afb31267606b38431510d10b0fb9ec9bba
+  languageName: node
+  linkType: hard
+
 "table@npm:^6.0.9":
   version: 6.8.0
   resolution: "table@npm:6.8.0"
@@ -3457,7 +3535,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.8.1":
+"tslib@npm:^1.13.0, tslib@npm:^1.8.1":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
@@ -3619,7 +3697,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vscode-html-languageservice@npm:^4.2.1":
+"vscode-html-languageservice@npm:^4.0.3, vscode-html-languageservice@npm:^4.2.1":
   version: 4.2.1
   resolution: "vscode-html-languageservice@npm:4.2.1"
   dependencies:

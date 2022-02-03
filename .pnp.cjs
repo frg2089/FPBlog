@@ -35,6 +35,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@fluentui/web-components", "npm:2.2.2"],
+            ["@microsoft/fast-components", "npm:2.20.2"],
             ["@typescript-eslint/eslint-plugin", "virtual:b13662c7364fee7a50cf86a9eeedcd1d3361b8c2e49dd8e9f44c7f9079a081f965cab9ddf42ecd308d77f0f51b88d1ae5015f72ca72745391ba3f19a5bdcf09f#npm:5.10.2"],
             ["@typescript-eslint/parser", "virtual:b13662c7364fee7a50cf86a9eeedcd1d3361b8c2e49dd8e9f44c7f9079a081f965cab9ddf42ecd308d77f0f51b88d1ae5015f72ca72745391ba3f19a5bdcf09f#npm:5.10.2"],
             ["@vitejs/plugin-vue", "virtual:b13662c7364fee7a50cf86a9eeedcd1d3361b8c2e49dd8e9f44c7f9079a081f965cab9ddf42ecd308d77f0f51b88d1ae5015f72ca72745391ba3f19a5bdcf09f#npm:2.1.0"],
@@ -153,6 +155,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@fluentui/web-components", [
+        ["npm:2.2.2", {
+          "packageLocation": "./.yarn/cache/@fluentui-web-components-npm-2.2.2-06bbc74ed6-3e6361c3dd.zip/node_modules/@fluentui/web-components/",
+          "packageDependencies": [
+            ["@fluentui/web-components", "npm:2.2.2"],
+            ["@microsoft/fast-colors", "npm:5.1.4"],
+            ["@microsoft/fast-element", "npm:1.7.0"],
+            ["@microsoft/fast-foundation", "npm:2.32.3"],
+            ["@microsoft/fast-web-utilities", "npm:5.1.0"],
+            ["tslib", "npm:1.14.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@gar/promisify", [
         ["npm:1.1.2", {
           "packageLocation": "./.yarn/cache/@gar-promisify-npm-1.1.2-2343f94380-d05081e088.zip/node_modules/@gar/promisify/",
@@ -179,6 +195,62 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@humanwhocodes-object-schema-npm-1.2.1-eb622b5d0e-a824a1ec31.zip/node_modules/@humanwhocodes/object-schema/",
           "packageDependencies": [
             ["@humanwhocodes/object-schema", "npm:1.2.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@microsoft/fast-colors", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/@microsoft-fast-colors-npm-5.1.4-822fca01d4-9b5923a12c.zip/node_modules/@microsoft/fast-colors/",
+          "packageDependencies": [
+            ["@microsoft/fast-colors", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@microsoft/fast-components", [
+        ["npm:2.20.2", {
+          "packageLocation": "./.yarn/cache/@microsoft-fast-components-npm-2.20.2-d819e9f241-ae22b422ad.zip/node_modules/@microsoft/fast-components/",
+          "packageDependencies": [
+            ["@microsoft/fast-components", "npm:2.20.2"],
+            ["@microsoft/fast-colors", "npm:5.1.4"],
+            ["@microsoft/fast-element", "npm:1.7.0"],
+            ["@microsoft/fast-foundation", "npm:2.32.3"],
+            ["@microsoft/fast-web-utilities", "npm:5.1.0"],
+            ["tslib", "npm:1.14.1"],
+            ["vscode-html-languageservice", "npm:4.2.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@microsoft/fast-element", [
+        ["npm:1.7.0", {
+          "packageLocation": "./.yarn/cache/@microsoft-fast-element-npm-1.7.0-f87f996673-6116cf26db.zip/node_modules/@microsoft/fast-element/",
+          "packageDependencies": [
+            ["@microsoft/fast-element", "npm:1.7.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@microsoft/fast-foundation", [
+        ["npm:2.32.3", {
+          "packageLocation": "./.yarn/cache/@microsoft-fast-foundation-npm-2.32.3-1670dd13d7-e4f2482b0f.zip/node_modules/@microsoft/fast-foundation/",
+          "packageDependencies": [
+            ["@microsoft/fast-foundation", "npm:2.32.3"],
+            ["@microsoft/fast-element", "npm:1.7.0"],
+            ["@microsoft/fast-web-utilities", "npm:5.1.0"],
+            ["tabbable", "npm:5.2.1"],
+            ["tslib", "npm:1.14.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@microsoft/fast-web-utilities", [
+        ["npm:5.1.0", {
+          "packageLocation": "./.yarn/cache/@microsoft-fast-web-utilities-npm-5.1.0-4ae2fffe30-ea26477d33.zip/node_modules/@microsoft/fast-web-utilities/",
+          "packageDependencies": [
+            ["@microsoft/fast-web-utilities", "npm:5.1.0"],
+            ["exenv-es6", "npm:1.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -2121,6 +2193,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["exenv-es6", [
+        ["npm:1.0.0", {
+          "packageLocation": "./.yarn/cache/exenv-es6-npm-1.0.0-75758405f9-6f36d69a83.zip/node_modules/exenv-es6/",
+          "packageDependencies": [
+            ["exenv-es6", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["fast-deep-equal", [
         ["npm:3.1.3", {
           "packageLocation": "./.yarn/cache/fast-deep-equal-npm-3.1.3-790edcfcf5-e21a9d8d84.zip/node_modules/fast-deep-equal/",
@@ -3824,6 +3905,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["shimakaze-blog", "workspace:."],
+            ["@fluentui/web-components", "npm:2.2.2"],
+            ["@microsoft/fast-components", "npm:2.20.2"],
             ["@typescript-eslint/eslint-plugin", "virtual:b13662c7364fee7a50cf86a9eeedcd1d3361b8c2e49dd8e9f44c7f9079a081f965cab9ddf42ecd308d77f0f51b88d1ae5015f72ca72745391ba3f19a5bdcf09f#npm:5.10.2"],
             ["@typescript-eslint/parser", "virtual:b13662c7364fee7a50cf86a9eeedcd1d3361b8c2e49dd8e9f44c7f9079a081f965cab9ddf42ecd308d77f0f51b88d1ae5015f72ca72745391ba3f19a5bdcf09f#npm:5.10.2"],
             ["@vitejs/plugin-vue", "virtual:b13662c7364fee7a50cf86a9eeedcd1d3361b8c2e49dd8e9f44c7f9079a081f965cab9ddf42ecd308d77f0f51b88d1ae5015f72ca72745391ba3f19a5bdcf09f#npm:2.1.0"],
@@ -4058,6 +4141,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-53b1e247e6.zip/node_modules/supports-preserve-symlinks-flag/",
           "packageDependencies": [
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["tabbable", [
+        ["npm:5.2.1", {
+          "packageLocation": "./.yarn/cache/tabbable-npm-5.2.1-6c5c4b34fa-d26e9eeb88.zip/node_modules/tabbable/",
+          "packageDependencies": [
+            ["tabbable", "npm:5.2.1"]
           ],
           "linkType": "HARD",
         }]
