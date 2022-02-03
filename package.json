@@ -4,6 +4,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
+    "@vitejs/plugin-vue": "^2.1.0",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
@@ -11,7 +12,8 @@
     "eslint-plugin-promise": "^5.2.0",
     "eslint-plugin-vue": "^8.4.0",
     "typescript": "^4.5.5",
-    "vite": "^2.7.13"
+    "vite": "^2.7.13",
+    "vue-tsc": "^0.31.1"
   },
   "dependencies": {
     "vue": "^3.2.29"
