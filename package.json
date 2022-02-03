@@ -22,7 +22,7 @@
   },
   "scripts": {
     "dev": "yarn vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "build": "yarn vue-tsc --noEmit && yarn vite build",
+    "preview": "yarn vite preview"
   }
 }
