@@ -17,5 +17,10 @@
   },
   "dependencies": {
     "vue": "^3.2.29"
+  },
+  "scripts": {
+    "dev": "yarn vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
   }
 }
